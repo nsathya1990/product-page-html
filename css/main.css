@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.product-image {
+    margin-left: 150px;
+    margin-right: 300px;
+    position: relative;
+}
+
+img {
+    height: 600px;
+    width: 600px;
+}
+
+.product-caption {
+    position: absolute;
+    z-index: -1;
+    left: 460px;
+    top: 170px;
+}
+
+span {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+span:last-child {
+    margin-top: 270px;
+    margin-left: 30px;
+}
+
